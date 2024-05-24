@@ -25,10 +25,13 @@ const navLinksConfig = z
   })
   .optional();
 
+const headingLinksConfig = z.boolean().optional();
+
 export const configSchema = z
   .object({
     multiSidebar: multiSidebarConfig,
     navLinks: navLinksConfig,
+    headingLinks: headingLinksConfig,
   })
   .optional();
 

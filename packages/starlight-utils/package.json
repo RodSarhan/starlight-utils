@@ -9,7 +9,8 @@
     ".": "./index.ts",
     "./components": "./components/index.ts",
     "./components/SiteTitle.astro": "./components/SiteTitle.astro",
-    "./components/Sidebar.astro": "./components/Sidebar.astro"
+    "./components/Sidebar.astro": "./components/Sidebar.astro",
+    "./styles/heading-links.css": "./styles/heading-links.css"
   },
   "scripts": {},
   "devDependencies": {
@@ -21,7 +22,9 @@
     "astro": ">=4.0.0"
   },
   "dependencies": {
-    "astro-integration-kit": "^0.13.3"
+    "@astrojs/markdown-remark": "^5.1.0",
+    "astro-integration-kit": "^0.13.3",
+    "rehype-autolink-headings": "^7.1.0"
   },
   "keywords": [
     "starlight",

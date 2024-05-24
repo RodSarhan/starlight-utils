@@ -43,6 +43,7 @@ export default defineConfig({
           navLinks: {
             leading: { useSidebarLabelled: "leading" },
           },
+          headingLinks: true,
         }),
       ],
     }),
